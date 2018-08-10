@@ -1,0 +1,14 @@
+切换
+$ cd ~/.ssh
+
+查看
+$ls
+
+创建
+$ ssh-keygen -t rsa -C "liu1499@outlook.com"
+
+查看秘钥
+$ cat id_rsa.pub
+
+是否成功正常工作
+$ ssh -T git@github.com
