@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<decorators defaultdir="/decorators">
+    <!-- 先定义不过滤的页面，即排除页面 -->
+    <excludes>
+        <pattern>/assets/*</pattern>
+    </excludes>
+
+    <decorator name="book" page="book_index.jsp">
+        <pattern>/book/*</pattern>
+    </decorator>
+
+</decorators>
